@@ -16,8 +16,6 @@ if (process.argv.indexOf('-p') != -1 ) {
   plugins.concat([
     // Pass the 'NODE_ENV=production' environment variable to the child processes.
     new webpack.DefinePlugin({ 'process.env': { NODE_ENV: JSON.stringify('production') } }),
-    // Uglify the output
-    new webpack.optimize.UglifyJsPlugin({ compress: { warnings: false } }),
   ]);
 }
 
