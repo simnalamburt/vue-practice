@@ -31,7 +31,7 @@ module.exports = {
   context: path.resolve(__dirname, 'src'),
   output: {
     filename: 'bundle.js',
-    path: `${__dirname}/../server/build`,
+    path: `${__dirname}/build`,
     publicPath: '/build/',
   },
   module: {
