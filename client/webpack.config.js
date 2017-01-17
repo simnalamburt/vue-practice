@@ -3,19 +3,24 @@ const path = require('path');
 const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const failPlugin = require('webpack-fail-plugin');
 
 
 // Always enabled plugins
 const plugins = [
   // Extract CSS files to the 'bundle.css'.
   new ExtractTextPlugin('bundle.css'),
+  // This plugin should be always required. See https://github.com/webpack/webpack/issues/708
+  failPlugin,
 ];
 
 // Production only plugins
-if (process.argv.indexOf('-p') != -1 ) {
+if (process.argv.indexOf('--optimize-occurrence-order') != -1 ) {
   plugins.splice(0, 0, ...[
     // Pass the 'NODE_ENV=production' environment variable to the child processes.
     new webpack.DefinePlugin({ 'process.env': { NODE_ENV: JSON.stringify('production') } }),
+    // Minimize the output
+    new webpack.optimize.UglifyJsPlugin({ compress: { warnings: false } }),
   ]);
 }
 
