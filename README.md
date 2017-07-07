@@ -9,11 +9,19 @@
 
 ### Instructions
 ```bash
-yarn          # Install dependencies
-yarn start    # Run webpack-dev-server at http://0.0.0.0:8080
+ls
+# client/       # Client-side codes
+# public/       # Files which will be statically served
 
-yarn build    # Build everything in production mode
+cd client/
 
-yarn watch    # Watch the files and build anything changed
-              # in development mode
+yarn install      # Download dependencies
+yarn build        # Build front-end codes in production mode
+yarn build:dev    # Build front-end codes in development mode
+
+yarn watch        # Watch for the changes & build front-end
+                  # codes in development mode
+
+yarn start        # Start webpack-dev-server
+                  # See http://localhost:8080
 ```

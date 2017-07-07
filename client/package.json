@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "build": "webpack --env=production --progress",
+    "build:dev": "webpack --progress",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.2.1",
+    "brotli-webpack-plugin": "^0.3.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "compression-webpack-plugin": "^0.4.0",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.29.0",
+    "postcss-cssnext": "^3.0.0",
+    "postcss-loader": "^2.0.6",
+    "typescript": "^2.4.1",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1",
+    "webpack-merge": "^4.1.0"
+  }
+}
