@@ -41,6 +41,7 @@ const commonConfigs = {
   },
   resolve: {
     extensions: ['.ts', '.js'],
+    alias: { vue: 'vue/dist/vue.js' } // TODO: Remove
   },
   plugins: [
     new CleanWebpackPlugin(['../public/static-*'], { allowExternal: true }),
