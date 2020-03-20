@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "test": "prettier --check 'src/**/*.{ts,vue}'",
+    "test": "yarn test:type && yarn test:fmt",
+    "test:type": "tsc",
+    "test:fmt": "prettier --check 'src/**/*.{ts,vue}'",
     "fmt": "prettier --write 'src/**/*.{ts,vue}'",
     "start": "yarn parcel src/index.html"
   },

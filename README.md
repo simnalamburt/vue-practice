@@ -15,6 +15,9 @@ yarn test
 yarn fmt
 ```
 
+### TODO
+- [ ] TypeScript config is **incomplete**
+
 &nbsp;
 
 --------

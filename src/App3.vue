@@ -4,7 +4,9 @@
 </template>
 
 <script lang="ts">
-export default {
+import Vue from 'vue'
+
+export default Vue.extend({
   data() {
     return {
       seen: false,
@@ -16,5 +18,5 @@ export default {
       this.seen = true
     }, 500)
   }
-}
+})
 </script>

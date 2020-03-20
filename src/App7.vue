@@ -16,9 +16,10 @@
 </template>
 
 <script lang="ts">
+import Vue from 'vue'
 import TodoItem from './TodoItem.vue'
 
-export default {
+export default Vue.extend({
   components: {
     TodoItem,
   },
@@ -31,5 +32,5 @@ export default {
       ],
     }
   },
-}
+})
 </script>

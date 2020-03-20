@@ -3,7 +3,9 @@
 </template>
 
 <script lang="ts">
-export default {
+import Vue from 'vue'
+
+export default Vue.extend({
   data() {
     return {
       message: 'Hello Vue!',
@@ -15,5 +17,5 @@ export default {
       this.message += 'ㅇㅅㅇ~'
     }, 1000)
   }
-}
+})
 </script>
