@@ -8,5 +8,6 @@
   },
   "dependencies": {
     "vue": "^2.3.4"
-  }
+  },
+  "license": "(Apache-2.0 OR MIT)"
 }
