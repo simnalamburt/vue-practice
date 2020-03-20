@@ -1,6 +1,2 @@
 # CLient-side dependencies
 /client/node_modules/
-
-# Build results
-/public/static-*
-/public/index.html

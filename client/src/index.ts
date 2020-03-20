@@ -1,6 +1,3 @@
-// Stylesheets
-import './index.css'
-
 import Vue from 'vue'
 
 const app = new Vue({
