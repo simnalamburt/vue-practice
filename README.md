@@ -5,7 +5,6 @@
 &nbsp;
 
 ```bash
-cd client/
-
-yarn install      # Download dependencies
+# Install dependencies
+yarn
 ```
