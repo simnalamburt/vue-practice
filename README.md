@@ -7,4 +7,7 @@
 ```bash
 # Install dependencies
 yarn
+
+# See http://localhost:1234 or 'dist' directory
+yarn start
 ```
