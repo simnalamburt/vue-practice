@@ -10,6 +10,9 @@ yarn
 
 # See http://localhost:1234 or 'dist' directory
 yarn start
+
+yarn test
+yarn fmt
 ```
 
 &nbsp;
