@@ -8,15 +8,14 @@
 # Install dependencies
 yarn
 
-# See http://localhost:1234 or 'dist' directory
+# See http://localhost:1234
 yarn start
+# See 'dist/'
+yarn build
 
 yarn test
 yarn fmt
 ```
-
-### TODO
-- [ ] TypeScript config is **incomplete**
 
 &nbsp;
 
