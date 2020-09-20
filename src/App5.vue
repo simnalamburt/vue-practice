@@ -6,9 +6,9 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { defineComponent } from 'vue'
 
-export default Vue.extend({
+export default defineComponent({
   data() {
     return {
       message: 'Hello Vue.js!',
@@ -17,10 +17,7 @@ export default Vue.extend({
 
   methods: {
     reverseMessage() {
-      this.message = this.message
-        .split('')
-        .reverse()
-        .join('')
+      this.message = this.message.split('').reverse().join('')
     },
   },
 })

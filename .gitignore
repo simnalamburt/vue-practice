@@ -6,6 +6,6 @@
 !/.yarn/versions
 /.pnp.*
 
-# parcel
-/.cache/
+# Parcel 2
+/.parcel-cache/
 /dist/

@@ -1,0 +1,11 @@
+# Yarn 2
+/.yarnrc.yml
+/.yarn/
+/.pnp.*
+
+# Parcel 2
+/.parcel-cache/
+/dist/
+
+# Markdowns
+*.md

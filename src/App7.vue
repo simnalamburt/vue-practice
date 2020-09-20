@@ -16,10 +16,10 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { defineComponent } from 'vue'
 import TodoItem from './TodoItem.vue'
 
-export default Vue.extend({
+export default defineComponent({
   components: {
     TodoItem,
   },

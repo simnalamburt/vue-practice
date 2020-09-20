@@ -3,19 +3,19 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { defineComponent } from 'vue'
 
-export default Vue.extend({
+export default defineComponent({
   data() {
     return {
       message: 'Hello Vue!',
     }
-  }
+  },
 
-  mounted () {
-    setTimeout(_ => {
+  mounted() {
+    setTimeout((_) => {
       this.message += 'ㅇㅅㅇ~'
     }, 1000)
-  }
+  },
 })
 </script>

@@ -1,15 +1,25 @@
 {
   "compilerOptions": {
-    "lib": ["es2020", "dom"],
-    "target": "es2020",
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["esnext", "dom", "dom.iterable"],
     "noEmit": true,
-    // Configs for Node.js
-    "esModuleInterop": true,
-    "moduleResolution": "Node",
+    "jsx": "preserve",
+
     // Strict Typecheck
     "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
-  },
-  "include": ["src/**/*.ts", "src/**/*.vue"]
+    "noUnusedParameters": true,
+
+    // Module
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Advanced
+    "skipLibCheck": true
+  }
 }
