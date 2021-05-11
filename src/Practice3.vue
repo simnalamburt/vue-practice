@@ -3,7 +3,7 @@
   <p v-else>Waiting...</p>
 </template>
 
-<script lang="ts">
+<script>
 import { defineComponent } from 'vue'
 
 export default defineComponent({

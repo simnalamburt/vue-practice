@@ -1,21 +1,20 @@
 <template>
-  <practice-1/>
+  <Practice1/>
   <hr/>
-  <practice-2/>
+  <Practice2/>
   <hr/>
-  <practice-3/>
+  <Practice3/>
   <hr/>
-  <practice-4/>
+  <Practice4/>
   <hr/>
-  <practice-5/>
+  <Practice5/>
   <hr/>
-  <practice-6/>
+  <Practice6/>
   <hr/>
-  <practice-7/>
+  <Practice7/>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
+<script setup>
 import Practice1 from './Practice1.vue'
 import Practice2 from './Practice2.vue'
 import Practice3 from './Practice3.vue'
@@ -24,15 +23,13 @@ import Practice5 from './Practice5.vue'
 import Practice6 from './Practice6.vue'
 import Practice7 from './Practice7.vue'
 
-export default defineComponent({
-  components: {
-    Practice1,
-    Practice2,
-    Practice3,
-    Practice4,
-    Practice5,
-    Practice6,
-    Practice7,
-  },
-})
+// This starter template is using Vue 3 experimental <script setup> SFCs
+// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
 </script>
+
+<style>
+#app {
+  text-align: center;
+  colro: #333;
+}
+</style>

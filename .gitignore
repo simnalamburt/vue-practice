@@ -6,6 +6,8 @@
 !/.yarn/versions
 /.pnp.*
 
-# Parcel 2
-/.parcel-cache/
-/dist/
+# Vite
+/node_modules/
+dist
+dist-ssr
+*.local

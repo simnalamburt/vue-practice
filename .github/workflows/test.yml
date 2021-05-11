@@ -15,4 +15,3 @@ jobs:
             ${{ runner.os }}-yarn-:
       - run: yarn install --immutable
       - run: yarn build
-      - run: yarn test
