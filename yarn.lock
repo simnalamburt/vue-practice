@@ -13,21 +13,21 @@ __metadata:
   linkType: hard
 
 "@babel/parser@npm:^7.12.0, @babel/parser@npm:^7.13.9":
-  version: 7.14.1
-  resolution: "@babel/parser@npm:7.14.1"
+  version: 7.14.3
+  resolution: "@babel/parser@npm:7.14.3"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: 64db8689201b9607c2952604fc8e87af219befeec519ca80191daaeafa7373c483dd00dcb0540e29cb8564d998f241c3fcd7ef4aec115930f7874d85f48621a8
+  checksum: 5e8d1b2bfc53b59c7476c32adee20c8a4d19fdab58b04b6b177d89319bd76526219dad2f6ab6f51a80a518d0cbcdc3980b73c18bde16017aeee2dd8a50687fe3
   languageName: node
   linkType: hard
 
 "@babel/types@npm:^7.12.0, @babel/types@npm:^7.13.0, @babel/types@npm:^7.8.3":
-  version: 7.14.1
-  resolution: "@babel/types@npm:7.14.1"
+  version: 7.14.2
+  resolution: "@babel/types@npm:7.14.2"
   dependencies:
     "@babel/helper-validator-identifier": ^7.14.0
     to-fast-properties: ^2.0.0
-  checksum: 27965ef192ded329d8ae28ccd5e5addd02dc477ec46e54145e5cf0d054ad65b2fc760736865295c1819d502ec9598883c17f25efdbe896ad77b400136a1aa971
+  checksum: 34893ac415826cd2ddead0511be9c3cb876bf626148b00b0a471c4630b193939ba46a9bf9d8b2be88e46fceb3ae9204ed7488ceb6a08a67550211d40df65a7c7
   languageName: node
   linkType: hard
 
@@ -253,8 +253,8 @@ __metadata:
   linkType: hard
 
 "cacache@npm:^15.0.5":
-  version: 15.0.6
-  resolution: "cacache@npm:15.0.6"
+  version: 15.1.0
+  resolution: "cacache@npm:15.1.0"
   dependencies:
     "@npmcli/move-file": ^1.0.1
     chownr: ^2.0.0
@@ -273,7 +273,7 @@ __metadata:
     ssri: ^8.0.1
     tar: ^6.0.2
     unique-filename: ^1.1.1
-  checksum: 14a42beacacd46eeb11577c27e866d17285f3647e5f870ded539eedb98ffc4d7d84bd49998e0eda140756494fd14e24b6a028710e2c00653fd6479f4e3dc47a3
+  checksum: 620f1cc942f820ab701121237488a25b892516b18346b13a4e9028722f0e7c9e7b5f82dbaf1a19a97df5ae2b4b32fb223fc5e8670ae7b84d1ae3e0a71aeb473b
   languageName: node
   linkType: hard
 
@@ -407,12 +407,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.9.3":
-  version: 0.9.7
-  resolution: "esbuild@npm:0.9.7"
+"esbuild@npm:^0.11.23":
+  version: 0.11.23
+  resolution: "esbuild@npm:0.11.23"
   bin:
     esbuild: bin/esbuild
-  checksum: 78a45e561156d8ecedfdbccddb83486b14f892a2624c100ff4a5150353a416b85a881d298a11da3447d3a2655571237dc9049a011ca10f4fedded2ffaab397c9
+  checksum: 9226fc3d74f7555c96778c5d9204312c578e9c11b472deebfbab52c4ac58b9efc3a40be529368f6ccbe257d0059c6b8fd142c179824a3227d055d912c7b5a94a
   languageName: node
   linkType: hard
 
@@ -1044,12 +1044,12 @@ fsevents@~2.3.1:
   linkType: hard
 
 "postcss-selector-parser@npm:^6.0.2, postcss-selector-parser@npm:^6.0.4":
-  version: 6.0.5
-  resolution: "postcss-selector-parser@npm:6.0.5"
+  version: 6.0.6
+  resolution: "postcss-selector-parser@npm:6.0.6"
   dependencies:
     cssesc: ^3.0.0
     util-deprecate: ^1.0.2
-  checksum: 24343ba437574807988c34f5f7724bd68ff2103d55c78dfe4a6d8904eeddcbc867a7f939658c0669338a322e32f4f1d7df82618d6edfe2db38dcd3fda737d770
+  checksum: 7e4854e82faa14bab0c5affbdf49b67cc0bf3e6fd9b0273e7f72c8ec957b5c5bcb7c64ae3cb6f8fe5b3ef965ec7e235d4e4d1a8868bd02139072e7a545221f09
   languageName: node
   linkType: hard
 
@@ -1060,7 +1060,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.1.10, postcss@npm:^8.2.1":
+"postcss@npm:^8.1.10, postcss@npm:^8.2.10":
   version: 8.2.15
   resolution: "postcss@npm:8.2.15"
   dependencies:
@@ -1149,8 +1149,8 @@ resolve@^1.19.0:
   linkType: hard
 
 "rollup@npm:^2.38.5":
-  version: 2.47.0
-  resolution: "rollup@npm:2.47.0"
+  version: 2.48.0
+  resolution: "rollup@npm:2.48.0"
   dependencies:
     fsevents: ~2.3.1
   dependenciesMeta:
@@ -1158,7 +1158,7 @@ resolve@^1.19.0:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: bab2079fea72ebb6457e88717f64f3bd8ff52556827f77485708274aa94f2dfa19f555c022643957d604ff7329be5d010234346d28e13dcfed33d742d3e468b0
+  checksum: 3f50c1e023adcf9fc14100b7ca128482ea58cd27af0aad344affbd9622fc35bbd28ca13ceac35b252d137aedd36df39886b3a308e42b437bcb46918584ee89d3
   languageName: node
   linkType: hard
 
@@ -1365,12 +1365,12 @@ resolve@^1.19.0:
   linkType: hard
 
 "vite@npm:^2.2.3":
-  version: 2.2.4
-  resolution: "vite@npm:2.2.4"
+  version: 2.3.3
+  resolution: "vite@npm:2.3.3"
   dependencies:
-    esbuild: ^0.9.3
+    esbuild: ^0.11.23
     fsevents: ~2.3.1
-    postcss: ^8.2.1
+    postcss: ^8.2.10
     resolve: ^1.19.0
     rollup: ^2.38.5
   dependenciesMeta:
@@ -1378,7 +1378,7 @@ resolve@^1.19.0:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: f0eb18ccd94a65c8db6846c6da5b46297121fc3604dfb6a48bbbd3b96d9e3096b717bdfa7001dce0de6ca2e991da6da920bd01658824f9ab34f5904281ccacae
+  checksum: 5f552de62f5fc36f49fae6d22672efa170ae8dfe1551a9cb38fd89f222e1941e9b10a39b8f65461c91654ef5d7c4b20f6d0cefe8dda28d2e186cb1cd92458e5f
   languageName: node
   linkType: hard
 
