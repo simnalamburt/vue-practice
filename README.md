@@ -5,6 +5,8 @@
 
 &nbsp;
 
+Practice for Vue and Vite.
+
 ```bash
 # Install dependencies
 yarn
