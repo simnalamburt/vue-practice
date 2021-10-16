@@ -96,7 +96,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-sfc@npm:3.2.20, @vue/compiler-sfc@npm:^3.0.5":
+"@vue/compiler-sfc@npm:3.2.20":
   version: 3.2.20
   resolution: "@vue/compiler-sfc@npm:3.2.20"
   dependencies:
@@ -1176,7 +1176,6 @@ resolve@^1.20.0:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@vitejs/plugin-vue": ^1.2.2
-    "@vue/compiler-sfc": ^3.0.5
     vite: ^2.2.3
     vue: ^3.0.5
   languageName: unknown

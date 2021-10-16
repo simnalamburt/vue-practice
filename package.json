@@ -10,7 +10,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.2",
-    "@vue/compiler-sfc": "^3.0.5",
     "vite": "^2.2.3"
   },
   "packageManager": "yarn@3.0.2"
