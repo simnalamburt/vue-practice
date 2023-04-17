@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.2",
-    "vite": "^2.2.3"
+    "vite": "^2.9.13"
   },
   "packageManager": "yarn@3.0.2"
 }
