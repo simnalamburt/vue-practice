@@ -9,12 +9,12 @@ Practice for Vue and Vite.
 
 ```bash
 # Install dependencies
-yarn
+pnpm i
 
 # See http://localhost:3000
-yarn dev
+pnpm dev
 # See 'dist/'
-yarn build
+pnpm build
 ```
 
 &nbsp;
