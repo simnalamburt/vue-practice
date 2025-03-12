@@ -30,6 +30,6 @@ import Practice7 from './Practice7.vue'
 <style>
 #app {
   text-align: center;
-  colro: #333;
+  color: #333;
 }
 </style>
