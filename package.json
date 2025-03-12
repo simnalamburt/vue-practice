@@ -9,8 +9,8 @@
     "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.10.2",
-    "vite": "^2.9.18"
+    "@vitejs/plugin-vue": "^5",
+    "vite": "^6"
   },
   "packageManager": "pnpm@10.6.2"
 }
