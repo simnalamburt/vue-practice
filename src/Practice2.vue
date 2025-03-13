@@ -11,7 +11,7 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   data() {
     return {
-      message: 'You loaded this page on ' + new Date(),
+      message: `You loaded this page on ${new Date()}`,
     }
   },
 })
