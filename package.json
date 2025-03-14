@@ -1,9 +1,9 @@
 {
   "license": "(Apache-2.0 OR MIT)",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "serve": "rsbuild preview",
     "test": "biome check",
     "fix": "biome check --fix"
   },
@@ -12,8 +12,8 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@vitejs/plugin-vue": "^5",
-    "vite": "^6"
+    "@rsbuild/core": "^1.2.19",
+    "@rsbuild/plugin-vue": "^1.0.7"
   },
   "packageManager": "pnpm@10.6.2"
 }

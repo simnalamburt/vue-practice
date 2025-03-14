@@ -1,6 +1,6 @@
 <p align=center>
   <img width=150 src="https://vuejs.org/images/logo.png" alt="Vue.js Logo">
-  <img width=150 src="https://vitejs.dev/logo.svg" alt="Vite logo">
+  <img width=150 src="https://assets.rspack.dev/rsbuild/rsbuild-logo.svg" alt="rsbuild logo">
 </p>
 
 &nbsp;
