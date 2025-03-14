@@ -15,7 +15,7 @@
   </ol>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from 'vue'
 import TodoItem from './TodoItem.vue'
 

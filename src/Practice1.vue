@@ -2,7 +2,7 @@
   <span>{{ message }}</span>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from 'vue'
 
 export default defineComponent({

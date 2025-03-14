@@ -14,7 +14,7 @@
   <Practice7/>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import Practice1 from './Practice1.vue'
 import Practice2 from './Practice2.vue'
 import Practice3 from './Practice3.vue'
