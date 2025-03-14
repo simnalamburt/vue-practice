@@ -4,7 +4,7 @@
     "dev": "rsbuild dev",
     "build": "rsbuild build",
     "serve": "rsbuild preview",
-    "test": "biome check",
+    "test": "vue-tsc --noEmit && biome check",
     "fix": "biome check --fix"
   },
   "dependencies": {
@@ -13,7 +13,8 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@rsbuild/core": "^1.2.19",
-    "@rsbuild/plugin-vue": "^1.0.7"
+    "@rsbuild/plugin-vue": "^1.0.7",
+    "vue-tsc": "^2.2.8"
   },
   "packageManager": "pnpm@10.6.2"
 }
