@@ -9,12 +9,12 @@ Practice for Vue and Vite.
 
 ```bash
 # Install dependencies
-pnpm i
+bun i
 
 # See http://localhost:3000
-pnpm dev
+bun dev
 # See 'dist/'
-pnpm build
+bun run build
 ```
 
 &nbsp;
