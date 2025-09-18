@@ -16,5 +16,5 @@
     "@rsbuild/plugin-vue": "^1.0.7",
     "vue-tsc": "^2.2.8"
   },
-  "packageManager": "bun@1.2.8"
+  "packageManager": "bun@1.2.22"
 }
